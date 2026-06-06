@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: env demo
+  name: env-demo
 spec:
   containers:
   - name: nginx
     image: nginx
-    env: 
+    env:
     - name: project
       value: roboshop
     - name: course
-      value: kubernets
+      value: kubernetes
