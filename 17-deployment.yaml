@@ -52,7 +52,6 @@ metadata:
   name: nginx-headless
 spec:
   clusterIP: None
-spec:
   selector:
     #lables are used as selectors
     project: roboshop
